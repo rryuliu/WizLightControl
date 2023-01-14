@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598FE314296FC6ED00F3E913 /* LightControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FE313296FC6ED00F3E913 /* LightControlApp.swift */; };
+		598FE318296FC6EF00F3E913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598FE317296FC6EF00F3E913 /* Assets.xcassets */; };
+		598FE31B296FC6EF00F3E913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598FE31A296FC6EF00F3E913 /* Preview Assets.xcassets */; };
+		598FE34B29700C5F00F3E913 /* LightControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FE34A29700C5F00F3E913 /* LightControler.swift */; };
+		59BA40EB2971238E00CEF8AD /* BlueSocketTestCommonLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 59BA40EA2971238E00CEF8AD /* BlueSocketTestCommonLibrary */; };
+		59BA40ED2971238E00CEF8AD /* Socket in Frameworks */ = {isa = PBXBuildFile; productRef = 59BA40EC2971238E00CEF8AD /* Socket */; };
+		59BA40F62971781400CEF8AD /* LightSetIp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA40F52971781400CEF8AD /* LightSetIp.swift */; };
+		59BA40F829719E0D00CEF8AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA40F729719E0D00CEF8AD /* MainView.swift */; };
+		59BA40FA2971A2BD00CEF8AD /* LightControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA40F92971A2BD00CEF8AD /* LightControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		598FE310296FC6ED00F3E913 /* LightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598FE313296FC6ED00F3E913 /* LightControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlApp.swift; sourceTree = "<group>"; };
+		598FE317296FC6EF00F3E913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598FE31A296FC6EF00F3E913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		598FE31C296FC6EF00F3E913 /* LightControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightControl.entitlements; sourceTree = "<group>"; };
+		598FE34A29700C5F00F3E913 /* LightControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControler.swift; sourceTree = "<group>"; };
+		59BA40EE29714CDA00CEF8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59BA40F52971781400CEF8AD /* LightSetIp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSetIp.swift; sourceTree = "<group>"; };
+		59BA40F729719E0D00CEF8AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		59BA40F92971A2BD00CEF8AD /* LightControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598FE30D296FC6ED00F3E913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BA40EB2971238E00CEF8AD /* BlueSocketTestCommonLibrary in Frameworks */,
+				59BA40ED2971238E00CEF8AD /* Socket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598FE307296FC6ED00F3E913 = {
+			isa = PBXGroup;
+			children = (
+				598FE312296FC6ED00F3E913 /* LightControl */,
+				598FE311296FC6ED00F3E913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598FE311296FC6ED00F3E913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598FE310296FC6ED00F3E913 /* LightControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598FE312296FC6ED00F3E913 /* LightControl */ = {
+			isa = PBXGroup;
+			children = (
+				59BA40EE29714CDA00CEF8AD /* Info.plist */,
+				598FE313296FC6ED00F3E913 /* LightControlApp.swift */,
+				59BA40F729719E0D00CEF8AD /* MainView.swift */,
+				59BA40F92971A2BD00CEF8AD /* LightControlView.swift */,
+				59BA40F52971781400CEF8AD /* LightSetIp.swift */,
+				598FE34A29700C5F00F3E913 /* LightControler.swift */,
+				598FE317296FC6EF00F3E913 /* Assets.xcassets */,
+				598FE31C296FC6EF00F3E913 /* LightControl.entitlements */,
+				598FE319296FC6EF00F3E913 /* Preview Content */,
+			);
+			path = LightControl;
+			sourceTree = "<group>";
+		};
+		598FE319296FC6EF00F3E913 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				598FE31A296FC6EF00F3E913 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598FE30F296FC6ED00F3E913 /* LightControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598FE335296FC6EF00F3E913 /* Build configuration list for PBXNativeTarget "LightControl" */;
+			buildPhases = (
+				598FE30C296FC6ED00F3E913 /* Sources */,
+				598FE30D296FC6ED00F3E913 /* Frameworks */,
+				598FE30E296FC6ED00F3E913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightControl;
+			packageProductDependencies = (
+				59BA40EA2971238E00CEF8AD /* BlueSocketTestCommonLibrary */,
+				59BA40EC2971238E00CEF8AD /* Socket */,
+			);
+			productName = LightControl;
+			productReference = 598FE310296FC6ED00F3E913 /* LightControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598FE308296FC6ED00F3E913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					598FE30F296FC6ED00F3E913 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 598FE30B296FC6ED00F3E913 /* Build configuration list for PBXProject "LightControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598FE307296FC6ED00F3E913;
+			packageReferences = (
+				59BA40E92971238E00CEF8AD /* XCRemoteSwiftPackageReference "BlueSocket" */,
+			);
+			productRefGroup = 598FE311296FC6ED00F3E913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598FE30F296FC6ED00F3E913 /* LightControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598FE30E296FC6ED00F3E913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598FE31B296FC6EF00F3E913 /* Preview Assets.xcassets in Resources */,
+				598FE318296FC6EF00F3E913 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598FE30C296FC6ED00F3E913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598FE314296FC6ED00F3E913 /* LightControlApp.swift in Sources */,
+				59BA40FA2971A2BD00CEF8AD /* LightControlView.swift in Sources */,
+				59BA40F829719E0D00CEF8AD /* MainView.swift in Sources */,
+				59BA40F62971781400CEF8AD /* LightSetIp.swift in Sources */,
+				598FE34B29700C5F00F3E913 /* LightControler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		598FE333296FC6EF00F3E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598FE334296FC6EF00F3E913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		598FE336296FC6EF00F3E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LightControl/LightControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightControl/Preview Content\"";
+				DEVELOPMENT_TEAM = W8QBWJL89W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightControl/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rryu.LightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		598FE337296FC6EF00F3E913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LightControl/LightControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightControl/Preview Content\"";
+				DEVELOPMENT_TEAM = W8QBWJL89W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightControl/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rryu.LightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598FE30B296FC6ED00F3E913 /* Build configuration list for PBXProject "LightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598FE333296FC6EF00F3E913 /* Debug */,
+				598FE334296FC6EF00F3E913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598FE335296FC6EF00F3E913 /* Build configuration list for PBXNativeTarget "LightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598FE336296FC6EF00F3E913 /* Debug */,
+				598FE337296FC6EF00F3E913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59BA40E92971238E00CEF8AD /* XCRemoteSwiftPackageReference "BlueSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/BlueSocket";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59BA40EA2971238E00CEF8AD /* BlueSocketTestCommonLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59BA40E92971238E00CEF8AD /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = BlueSocketTestCommonLibrary;
+		};
+		59BA40EC2971238E00CEF8AD /* Socket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59BA40E92971238E00CEF8AD /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = Socket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 598FE308296FC6ED00F3E913 /* Project object */;
+}
