@@ -1,6 +1,7 @@
 Wiz Light Control v1.0
 ================================
 Control Philips Wizlight with Mac Menu Bar
+
 Please set the IP of the bulb before use
 
 ![menbarImage](https://user-images.githubusercontent.com/77834399/212459176-957731c2-eb0e-40ab-96a0-d26f5490e486.png)
