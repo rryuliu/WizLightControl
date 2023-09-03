@@ -105,7 +105,7 @@ struct LightControlView: View {
         TabView {
             StaticLightView(lightControl: $lightControl,lightIp: $lightIp)
                 .tabItem {
-                    Label("􀀁 静态光", systemImage: "circle.fill")
+                    Label("static-light".localized, systemImage: "circle.fill")
                 }
             DynamicLightView(lightControl: $lightControl,lightSpeed: $lightSpeed, lightIp: $lightIp)
                 .tabItem {

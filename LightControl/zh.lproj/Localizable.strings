@@ -1,0 +1,7 @@
+/*
+  Localizable.strings
+*/
+
+"light-setip" = "输入智能灯泡的IP";
+"help-quit" = "退出";
+"static-light" = "􀀁 静态光";

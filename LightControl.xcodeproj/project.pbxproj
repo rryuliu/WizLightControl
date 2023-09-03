@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3214F115644C1590739FFBE4 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = D4AA70BC72580CBF02374137 /* Localizable.strings */; };
 		598FE314296FC6ED00F3E913 /* LightControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FE313296FC6ED00F3E913 /* LightControlApp.swift */; };
 		598FE318296FC6EF00F3E913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598FE317296FC6EF00F3E913 /* Assets.xcassets */; };
 		598FE31B296FC6EF00F3E913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598FE31A296FC6EF00F3E913 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1046922D15F119E1AB67C87D /* Localizable.strings */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = Localizable.strings; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
 		598FE310296FC6ED00F3E913 /* LightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		598FE313296FC6ED00F3E913 /* LightControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlApp.swift; sourceTree = "<group>"; };
 		598FE317296FC6EF00F3E913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +31,8 @@
 		59BA40F52971781400CEF8AD /* LightSetIp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSetIp.swift; sourceTree = "<group>"; };
 		59BA40F729719E0D00CEF8AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		59BA40F92971A2BD00CEF8AD /* LightControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlView.swift; sourceTree = "<group>"; };
+		67E76CC55FDED9EF71D9B2DD /* Localizable.strings */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB61EF2666BC012D17F45554 /* Localizable.strings */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				598FE317296FC6EF00F3E913 /* Assets.xcassets */,
 				598FE31C296FC6EF00F3E913 /* LightControl.entitlements */,
 				598FE319296FC6EF00F3E913 /* Preview Content */,
+				D4AA70BC72580CBF02374137 /* Localizable.strings */,
 			);
 			path = LightControl;
 			sourceTree = "<group>";
@@ -116,7 +121,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					598FE30F296FC6ED00F3E913 = {
 						CreatedOnToolsVersion = 14.2;
@@ -130,6 +135,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				zh,
 			);
 			mainGroup = 598FE307296FC6ED00F3E913;
 			packageReferences = (
@@ -166,16 +173,31 @@
 				59BA40F829719E0D00CEF8AD /* MainView.swift in Sources */,
 				59BA40F62971781400CEF8AD /* LightSetIp.swift in Sources */,
 				598FE34B29700C5F00F3E913 /* LightControler.swift in Sources */,
+				3214F115644C1590739FFBE4 /* Localizable.strings in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4AA70BC72580CBF02374137 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E76CC55FDED9EF71D9B2DD /* Localizable.strings */,
+				DB61EF2666BC012D17F45554 /* Localizable.strings */,
+				1046922D15F119E1AB67C87D /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		598FE333296FC6EF00F3E913 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -205,6 +227,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -236,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -265,6 +289,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -290,12 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_ENTITLEMENTS = LightControl/LightControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LightControl/Preview Content\"";
-				DEVELOPMENT_TEAM = W8QBWJL89W;
+				DEVELOPMENT_TEAM = 782XDWDV63;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,12 +347,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_ENTITLEMENTS = LightControl/LightControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"LightControl/Preview Content\"";
-				DEVELOPMENT_TEAM = W8QBWJL89W;
+				DEVELOPMENT_TEAM = 782XDWDV63;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

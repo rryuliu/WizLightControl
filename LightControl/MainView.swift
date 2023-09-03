@@ -75,7 +75,7 @@ struct MainView: View {
                         .foregroundColor(.primary)
                         .font(.title2)
                 }
-                .buttonStyle(.plain).help(Text("退出"))
+                .buttonStyle(.plain).help(Text("help-quit".localized))
             }
             .padding(.horizontal)
             .padding(.vertical,10)
