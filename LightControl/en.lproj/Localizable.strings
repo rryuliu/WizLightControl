@@ -4,4 +4,5 @@
 
 "light-setip" = "Enter the IP of the smart bulb";
 "help-quit" = "Quit";
-"static-light" = "Statisches Licht";
+"static-light" = "Static light";
+"dynamic-light" = "Dynamic light";

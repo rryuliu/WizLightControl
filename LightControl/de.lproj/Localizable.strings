@@ -5,3 +5,4 @@
 "light-setip" = "Geben Sie die IP der Smart-Glühbirne ein";
 "help-quit" = "Beenden";
 "static-light" = "Statisches Licht";
+"dynamic-light" = "Dynamisches Licht";

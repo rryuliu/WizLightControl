@@ -18,7 +18,7 @@ struct LightControlView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 12) {
-            Text("LightControler")
+            Text("LightController")
                 .font(.title.bold())
                 .foregroundColor(.primary)
             Spacer()
@@ -109,7 +109,7 @@ struct LightControlView: View {
                 }
             DynamicLightView(lightControl: $lightControl,lightSpeed: $lightSpeed, lightIp: $lightIp)
                 .tabItem {
-                    Label("􀨁 动态光", systemImage: "circle.circle")
+                    Label("dynamic-light".localized, systemImage: "circle.circle")
                 }
         }
     }
