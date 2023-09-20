@@ -6,3 +6,39 @@
 "help-quit" = "Quit";
 "static-light" = "Static light";
 "dynamic-light" = "Dynamic light";
+
+"title-warm-white" = "Warm White";
+"title-daylight" = "Daylight";
+"title-cool-white" = "Cool White";
+"title-night-light" = "Night Light";
+"title-comfort" = "Comfort";
+"title-primary-color" = "Primary Color";
+"title-relax" = "Relax";
+"title-focus" = "Focus";
+"title-tv-time" = "TV Time";
+"title-plant-growth" = "Plant Growth";
+
+"title-candlelight" = "Candlelight";
+"title-breathing-light" = "Breathing Light";
+"title-golden-white" = "Golden White";
+"title-steampunk" = "Steampunk";
+"title-fireplace" = "Fireplace";
+"title-autumn" = "Autumn";
+"title-club" = "Club";
+"title-sunset" = "Sunset";
+"title-romantic" = "Romantic";
+"title-party" = "Party";
+"title-soft-colors" = "Soft Colors";
+"title-spring" = "Spring";
+"title-summer" = "Summer";
+"title-forest" = "Forest";
+"title-jungle" = "Jungle";
+"title-mojito" = "Mojito";
+"title-ocean" = "Ocean";
+"title-deep-sea" = "Deep Sea";
+"title-christmas" = "Christmas";
+"title-festival-of-lights" = "Festival of Lights";
+"title-halloween" = "Halloween";
+"title-wake-up" = "Wake Up";
+"title-bedtime" = "Bedtime";
+
