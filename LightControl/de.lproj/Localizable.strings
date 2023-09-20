@@ -1,0 +1,43 @@
+/*
+  Localizable.strings
+*/
+
+"light-setip" = "Geben Sie die IP der Smart-Glühbirne ein";
+"help-quit" = "Beenden";
+"static-light" = "Statisches Licht";
+"dynamic-light" = "Dynamisches Licht";
+
+"title-warm-white" = "Warmweiß";
+"title-daylight" = "Tageslicht";
+"title-cool-white" = "Kaltweiß";
+"title-night-light" = "Nachtlicht";
+"title-comfort" = "Komfort";
+"title-primary-color" = "Primärfarbe";
+"title-relax" = "Entspannen";
+"title-focus" = "Fokus";
+"title-tv-time" = "TV-Zeit";
+"title-plant-growth" = "Pflanzenwachstum";
+
+"title-candlelight" = "Kerzenlicht";
+"title-breathing-light" = "Atemlicht";
+"title-golden-white" = "Goldenes Weiß";
+"title-steampunk" = "Steampunk";
+"title-fireplace" = "Kamin";
+"title-autumn" = "Herbst";
+"title-club" = "Club";
+"title-sunset" = "Sonnenuntergang";
+"title-romantic" = "Romantisch";
+"title-party" = "Party";
+"title-soft-colors" = "Sanfte Farben";
+"title-spring" = "Frühling";
+"title-summer" = "Sommer";
+"title-forest" = "Wald";
+"title-jungle" = "Dschungel";
+"title-mojito" = "Mojito";
+"title-ocean" = "Ozean";
+"title-deep-sea" = "Tiefsee";
+"title-christmas" = "Weihnachten";
+"title-festival-of-lights" = "Lichterfest";
+"title-halloween" = "Halloween";
+"title-wake-up" = "Aufwachen";
+"title-bedtime" = "Schlafenszeit";

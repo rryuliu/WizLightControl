@@ -18,7 +18,7 @@ struct LightControlView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 12) {
-            Text("LightControler")
+            Text("LightController")
                 .font(.title.bold())
                 .foregroundColor(.primary)
             Spacer()
@@ -105,11 +105,11 @@ struct LightControlView: View {
         TabView {
             StaticLightView(lightControl: $lightControl,lightIp: $lightIp)
                 .tabItem {
-                    Label("􀀁 静态光", systemImage: "circle.fill")
+                    Label("static-light".localized, systemImage: "circle.fill")
                 }
             DynamicLightView(lightControl: $lightControl,lightSpeed: $lightSpeed, lightIp: $lightIp)
                 .tabItem {
-                    Label("􀨁 动态光", systemImage: "circle.circle")
+                    Label("dynamic-light".localized, systemImage: "circle.circle")
                 }
         }
     }
@@ -123,22 +123,22 @@ struct StaticLightView: View {
     var body: some View {
         Grid() {
             GridRow {
-                ControlViewV(icon: "lightbulb.led", title: "暖白", color: .yellow,scene: 11)
-                ControlViewV(icon: "sun.max", title: "日光", color: .white,scene: 12)
-                ControlViewV(icon: "snowflake", title: "冷白", color: .blue,scene: 13)
+                ControlViewV(icon: "lightbulb.led", title: "title-warm-white".localized, color: .yellow,scene: 11)
+                ControlViewV(icon: "sun.max", title: "title-daylight".localized, color: .white,scene: 12)
+                ControlViewV(icon: "snowflake", title: "title-cool-white".localized, color: .blue,scene: 13)
             }
             Spacer()
             GridRow {
-                ControlViewV(icon: "moon", title: "夜灯", color: .gray,scene: 14)
-                ControlViewV(icon: "cup.and.saucer", title: "舒适", color: .yellow,scene: 6)
-                ControlViewV(icon: "paintpalette", title: "原色", color: .yellow,scene: 17)
-                ControlViewV(icon: "leaf", title: "放松", color: .purple,scene: 16)
-                ControlViewV(icon: "person.and.background.dotted", title: "专注", color: .white,scene: 15)
+                ControlViewV(icon: "moon", title: "title-night-light".localized, color: .gray,scene: 14)
+                ControlViewV(icon: "cup.and.saucer", title: "title-comfort".localized, color: .yellow,scene: 6)
+                ControlViewV(icon: "paintpalette", title: "title-primary-color".localized, color: .yellow,scene: 17)
+                ControlViewV(icon: "leaf", title: "title-relax".localized, color: .purple,scene: 16)
+                ControlViewV(icon: "person.and.background.dotted", title: "title-focus".localized, color: .white,scene: 15)
             }
             
             GridRow {
-                ControlViewV(icon: "sparkles.tv", title: "电视时间", color: .blue,scene: 18)
-                ControlViewV(icon: "tree", title: "植物生长", color: .pink,scene: 19)
+                ControlViewV(icon: "sparkles.tv", title: "title-tv-time".localized, color: .blue,scene: 18)
+                ControlViewV(icon: "tree", title: "title-plant-growth".localized, color: .pink,scene: 19)
             }
         }
         .padding()
@@ -177,44 +177,44 @@ struct DynamicLightView: View {
     var body: some View {
         Grid() {
             GridRow {
-                ControlViewV(icon: "microbe", title: "烛光", color: .yellow, scene: 29)
-                ControlViewV(icon: "water.waves", title: "呼吸灯", color: .yellow, scene: 31)
-                ControlViewV(icon: "rays", title: "金白色", color: .white, scene: 30)
-                ControlViewV(icon: "eyeglasses", title: "蒸汽朋克", color: .yellow, scene: 32)
+                ControlViewV(icon: "microbe", title: "title-candlelight".localized, color: .yellow, scene: 29)
+                ControlViewV(icon: "water.waves", title: "title-breathing-light".localized, color: .yellow, scene: 31)
+                ControlViewV(icon: "rays", title: "title-golden-white".localized, color: .white, scene: 30)
+                ControlViewV(icon: "eyeglasses", title: "title-steampunk".localized, color: .yellow, scene: 32)
             }
             Spacer()
             GridRow {
-                ControlViewV(icon: "fireplace", title: "壁炉", color: .orange, scene: 5)
-                ControlViewV(icon: "wind", title: "秋天", color: .orange, scene: 22)
-                ControlViewV(icon: "fleuron", title: "俱乐部", color: .orange, scene: 26)
-                ControlViewV(icon: "sunset", title: "日落", color: .red, scene: 3)
-                ControlViewV(icon: "bolt.heart", title: "浪漫", color: .purple, scene: 2)
+                ControlViewV(icon: "fireplace", title: "title-fireplace".localized, color: .orange, scene: 5)
+                ControlViewV(icon: "wind", title: "title-autumn".localized, color: .orange, scene: 22)
+                ControlViewV(icon: "fleuron", title: "title-club".localized, color: .orange, scene: 26)
+                ControlViewV(icon: "sunset", title: "title-sunset".localized, color: .red, scene: 3)
+                ControlViewV(icon: "bolt.heart", title: "title-romantic".localized, color: .purple, scene: 2)
             }
             
             GridRow {
-                ControlViewV(icon: "party.popper", title: "聚会", color: .pink, scene: 4)
-                ControlViewV(icon: "arrow.triangle.swap", title: "柔和色系", color: .pink, scene: 8)
-                ControlViewV(icon: "leaf", title: "春天", color: .green, scene: 20)
-                ControlViewV(icon: "tshirt", title: "夏天", color: .yellow, scene: 21)
-                ControlViewV(icon: "tent.2", title: "森林", color: .mint, scene: 7)
+                ControlViewV(icon: "party.popper", title: "title-party".localized, color: .pink, scene: 4)
+                ControlViewV(icon: "arrow.triangle.swap", title: "title-soft-colors".localized, color: .pink, scene: 8)
+                ControlViewV(icon: "leaf", title: "title-spring".localized, color: .green, scene: 20)
+                ControlViewV(icon: "tshirt", title: "title-summer".localized, color: .yellow, scene: 21)
+                ControlViewV(icon: "tent.2", title: "title-forest".localized, color: .mint, scene: 7)
             }
             
             GridRow {
-                ControlViewV(icon: "sparkles.tv", title: "丛林", color: .green, scene: 24)
-                ControlViewV(icon: "wineglass", title: "莫吉托", color: .cyan, scene: 25)
-                ControlViewV(icon: "sailboat", title: "海洋", color: .teal, scene: 1)
-                ControlViewV(icon: "fish", title: "深海", color: .blue, scene: 23)
-                ControlViewV(icon: "gift", title: "圣诞节", color: .red, scene: 27)
+                ControlViewV(icon: "sparkles.tv", title: "title-jungle".localized, color: .green, scene: 24)
+                ControlViewV(icon: "wineglass", title: "title-mojito".localized, color: .cyan, scene: 25)
+                ControlViewV(icon: "sailboat", title: "title-ocean".localized, color: .teal, scene: 1)
+                ControlViewV(icon: "fish", title: "title-deep-sea".localized, color: .blue, scene: 23)
+                ControlViewV(icon: "gift", title: "title-christmas".localized, color: .red, scene: 27)
             }
             
             GridRow {
-                ControlViewV(icon: "flame.circle", title: "排灯节", color: .yellow, scene: 33)
-                ControlViewV(icon: "theatermasks", title: "万圣节", color: .orange, scene: 28)
+                ControlViewV(icon: "flame.circle", title: "title-festival-of-lights".localized, color: .yellow, scene: 33)
+                ControlViewV(icon: "theatermasks", title: "title-halloween".localized, color: .orange, scene: 28)
             }
             Spacer()
             GridRow {
-                ControlViewV(icon: "alarm", title: "晨醒", color: .white, scene: 9)
-                ControlViewV(icon: "teddybear", title: "就寝时间", color: .orange, scene: 10)
+                ControlViewV(icon: "alarm", title: "title-wake-up".localized, color: .white, scene: 9)
+                ControlViewV(icon: "teddybear", title: "title-bedtime".localized, color: .orange, scene: 10)
             }
             
             // 速度调整滑块
@@ -245,7 +245,7 @@ struct DynamicLightView: View {
         }
         .padding(10)
     }
-    
+
     @ViewBuilder
     func ControlViewV (icon:String, title: String, color: Color, scene: Int)->some View{
         Button {

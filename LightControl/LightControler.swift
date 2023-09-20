@@ -37,7 +37,7 @@ class LightControler {
             s = try Socket.create(family: .inet, type: .datagram, proto: .udp)
             let addr = Socket.createAddress(for: ip, on: 38899)!
             try s.write(from: message, to: addr)
-            try s.readDatagram(into: &readData)
+            _ = try s.readDatagram(into: &readData)
             let resp = String(data: readData, encoding: .utf8)!
             print(resp)
         } catch let error {
@@ -50,13 +50,13 @@ class LightControler {
             {"method":"getPilot","params":{}}
         """
         var readData:Data = message.data(using: .utf8)!
-        var lightState:Bool = false
+        let lightState:Bool = false
         
         do {
             s = try Socket.create(family: .inet, type: .datagram, proto: .udp)
             let addr = Socket.createAddress(for: ip, on: 38899)!
             try s.write(from: message, to: addr)
-            try s.readDatagram(into: &readData)
+            _ = try s.readDatagram(into: &readData)
             let resp = String(data: readData, encoding: .utf8)!
             print(resp)
         } catch let error {

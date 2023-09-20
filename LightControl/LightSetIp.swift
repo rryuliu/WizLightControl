@@ -14,7 +14,7 @@ struct LightSetIp: View {
     var body: some View {
         VStack {
             HStack {
-                TextField("输入智能灯泡的IP",text: $lightIp)
+                TextField("light-setip".localized,text: $lightIp)
                     .padding()
                     .frame(width:300, height: 40.0)
                     .textFieldStyle(.plain)
